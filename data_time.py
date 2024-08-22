@@ -52,3 +52,6 @@ data = dt.datetime.now()
 intervalo = dt.timedelta(days=3)
 previsao = data + intervalo # ou # previsao = data + dt.timedelta(days=3)
 print(f"\nPrevisao de horario da que 3 dias: {previsao}")
+
+data = dt.datetime.now()
+print(20*"=", data.time())
